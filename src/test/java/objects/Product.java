@@ -1,0 +1,51 @@
+package objects;
+
+import java.io.IOException;
+
+import utils.JacksonUtils;
+
+public class Product {
+	
+	public Product(){
+		
+		
+	}
+	// in products.json- we have passed json object and hence we need to first parse json array and then extract json object based on the id 
+	// for the we need to use jaskon 
+	
+	public Product(int id) throws IOException{
+		
+		// extracting Json array of array type "Product" and loop through to find our desired product using id
+		Product[] products = JacksonUtils.deserializeJson("products.json", Product[].class);
+		for(Product product :products ) {
+			
+			if(product.getId() == id) {
+				
+				this.id =id;
+				this.name= product.getName();
+			}
+		}
+		
+		
+	}
+	
+	private int id;
+	private String name;
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}

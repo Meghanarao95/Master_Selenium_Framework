@@ -1,0 +1,11 @@
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "country" : "United States (US)",
+  "addressLineOne": "123 Main St",
+  "city": "San Fransisco",
+  "state":"California",
+  "postalCode": "10001",
+  "email": "john.doe@example.com"
+}
+

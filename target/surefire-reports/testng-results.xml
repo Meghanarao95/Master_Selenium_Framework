@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-05T12:27:13 PDT" name="Suite" finished-at="2024-09-05T12:28:19 PDT" duration-ms="66687">
+    <groups>
+    </groups>
+    <test started-at="2024-09-05T12:27:13 PDT" name="CHROME" finished-at="2024-09-05T12:27:45 PDT" duration-ms="31991">
+      <class name="testCases.Testcases">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:testCases.Testcases@33afa13b]" started-at="2024-09-05T12:27:13 PDT" name="startDriver" finished-at="2024-09-05T12:27:23 PDT" duration-ms="10009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:testCases.Testcases@33afa13b]" started-at="2024-09-05T12:27:13 PDT" name="startDriver" finished-at="2024-09-05T12:27:23 PDT" duration-ms="10009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="loginGuestCheckoutUingDirectBanckTransfer()[pri:0, instance:testCases.Testcases@33afa13b]" started-at="2024-09-05T12:27:23 PDT" name="loginGuestCheckoutUingDirectBanckTransfer" finished-at="2024-09-05T12:27:45 PDT" duration-ms="21690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginGuestCheckoutUingDirectBanckTransfer -->
+        <test-method signature="guestCheckoutUingDirectBanckTransfer()[pri:0, instance:testCases.Testcases@33afa13b]" started-at="2024-09-05T12:27:23 PDT" name="guestCheckoutUingDirectBanckTransfer" finished-at="2024-09-05T12:27:43 PDT" duration-ms="20314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestCheckoutUingDirectBanckTransfer -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:testCases.Testcases@33afa13b]" started-at="2024-09-05T12:27:43 PDT" name="quitDriver" finished-at="2024-09-05T12:27:44 PDT" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:testCases.Testcases@33afa13b]" started-at="2024-09-05T12:27:45 PDT" name="quitDriver" finished-at="2024-09-05T12:27:45 PDT" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- testCases.Testcases -->
+    </test> <!-- CHROME -->
+    <test started-at="2024-09-05T12:27:13 PDT" name="FIREFOX" finished-at="2024-09-05T12:28:19 PDT" duration-ms="66687">
+      <class name="testCases.Testcases">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:testCases.Testcases@659a969b]" started-at="2024-09-05T12:27:13 PDT" name="startDriver" finished-at="2024-09-05T12:27:27 PDT" duration-ms="13683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:testCases.Testcases@659a969b]" started-at="2024-09-05T12:27:13 PDT" name="startDriver" finished-at="2024-09-05T12:27:26 PDT" duration-ms="13604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="loginGuestCheckoutUingDirectBanckTransfer()[pri:0, instance:testCases.Testcases@659a969b]" started-at="2024-09-05T12:27:26 PDT" name="loginGuestCheckoutUingDirectBanckTransfer" finished-at="2024-09-05T12:28:19 PDT" duration-ms="52212" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: .woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.2.0, moz:processID: 51393, moz:profile: /var/folders/ts/03hn90q96_7..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: c30a69e8-ead0-4672-9e7e-16095b1595ba]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.2.0, moz:processID: 51393, moz:profile: /var/folders/ts/03hn90q96_7..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: c30a69e8-ead0-4672-9e7e-16095b1595ba
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pages.CheckOutPage.getNotice(CheckOutPage.java:135)
+at testCases.Testcases.loginGuestCheckoutUingDirectBanckTransfer(Testcases.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginGuestCheckoutUingDirectBanckTransfer -->
+        <test-method signature="guestCheckoutUingDirectBanckTransfer()[pri:0, instance:testCases.Testcases@659a969b]" started-at="2024-09-05T12:27:27 PDT" name="guestCheckoutUingDirectBanckTransfer" finished-at="2024-09-05T12:28:17 PDT" duration-ms="50611" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: .woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.2.0, moz:processID: 51392, moz:profile: /var/folders/ts/03hn90q96_7..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: de126ef9-d907-43d4-90eb-ea2c292d8da7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.2.0, moz:processID: 51392, moz:profile: /var/folders/ts/03hn90q96_7..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: de126ef9-d907-43d4-90eb-ea2c292d8da7
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pages.CheckOutPage.getNotice(CheckOutPage.java:135)
+at testCases.Testcases.guestCheckoutUingDirectBanckTransfer(Testcases.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestCheckoutUingDirectBanckTransfer -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:testCases.Testcases@659a969b]" started-at="2024-09-05T12:28:17 PDT" name="quitDriver" finished-at="2024-09-05T12:28:18 PDT" duration-ms="940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:testCases.Testcases@659a969b]" started-at="2024-09-05T12:28:19 PDT" name="quitDriver" finished-at="2024-09-05T12:28:19 PDT" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- testCases.Testcases -->
+    </test> <!-- FIREFOX -->
+  </suite> <!-- Suite -->
+</testng-results>
